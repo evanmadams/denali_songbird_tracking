@@ -28,8 +28,6 @@ library(rgdal)
 
 data(wrld_simpl)
 
-ggmap::register_google('AIzaSyAP-Bw0UrHfyPW6EdcXRDtoT0OzFDZAJSo')
-
 #homemade twilightedit fn to remove outlier twilights
 twilightEdit2 <- function (twilights, offset = 17, window = 4, outlier.mins = 45, 
                            stationary.mins = 15, zlim = c(0, 64), plot = T) 
